@@ -1,11 +1,10 @@
-# skill-adr
+# skill-adr: Agent skill for working with a lightweight ADR documentation
 
 An Agent Skill for creating, updating, and reviewing Markdown Architecture
-Decision Record (ADR) documentation projects.
+Decision Record (ADR) documentation projects. This skill is intentionally dedicated for working with simplified version of ADR that we find most useful for the majority of the projects.
 
 The skill is intentionally tool-agnostic. It follows the portable
-[Agent Skills](https://skill.md/) format and does not require Codex, OpenAI,
-Spex, or any ADR-specific generator.
+[Agent Skills](https://skill.md/) format and does not require Codex, OpenAI or any ADR-specific generator.
 
 ## What it does
 
@@ -15,7 +14,8 @@ collections:
 - choosing or preserving an ADR directory such as `adr/` or `docs/adr/`
 - naming ADR files with sortable sequence numbers and heading-based slugs
 - writing ADRs with `Context`, `Decision`, `Consequences`, and
-  `Alternatives Considered` sections
+  `Alternatives Considered` sections, including separate positive and negative
+  consequence lists
 - keeping ADR prose concise, practical, and decision-focused
 - validating ADR Markdown structure and naming conventions
 

@@ -141,7 +141,13 @@ State the selected decision clearly.
 
 ## Consequences
 
-Describe positive and negative consequences of the decision.
+Positive consequences:
+
+- Describe a benefit of the decision.
+
+Negative consequences:
+
+- Describe a trade-off or cost of the decision.
 
 ## Alternatives Considered
 
@@ -154,7 +160,8 @@ Write ADRs in a concise, direct, practical style.
 
 - Explain project context before stating the decision.
 - Use `We will ...` for accepted decisions.
-- Document both positive and negative consequences.
+- Document consequences as two separate lists: positive consequences and
+  negative consequences.
 - Prefer concrete examples when the decision affects source layout, command
   usage, dependencies, or security posture.
 - Keep each ADR focused on one decision.
@@ -169,6 +176,8 @@ Before finishing ADR work, validate the files directly:
 - Check that every ADR has exactly one top-level `#` heading.
 - Check that every ADR includes `Context`, `Decision`, `Consequences`, and
   `Alternatives Considered` sections.
+- Check that every `Consequences` section contains separate positive and
+  negative consequence lists.
 - Run existing Markdown lint, link-check, formatting, or documentation CI tools
   when the repository already provides them.
 
@@ -184,5 +193,5 @@ Before finishing ADR project work, check that:
 - Every ADR has `Context`, `Decision`, `Consequences`, and
   `Alternatives Considered` sections.
 - Accepted decisions use `We will ...`.
-- Consequences include both benefits and trade-offs when applicable.
+- Consequences use separate positive and negative consequence lists.
 - Existing Markdown or documentation validation passes when available.
