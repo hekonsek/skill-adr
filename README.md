@@ -15,7 +15,7 @@ collections:
 - naming ADR files with sortable sequence numbers and heading-based slugs
 - writing ADRs with `Context`, `Decision`, `Consequences`, and
   `Alternatives Considered` sections, including separate positive and negative
-  consequence lists
+  consequence lists with meaningful trade-offs
 - keeping ADR prose concise, practical, and decision-focused
 - validating ADR Markdown structure and naming conventions
 

@@ -147,7 +147,8 @@ Positive consequences:
 
 Negative consequences:
 
-- Describe a trade-off or cost of the decision.
+- Describe a trade-off, cost, risk, operational burden, migration impact, or
+  limitation of the decision.
 
 ## Alternatives Considered
 
@@ -162,6 +163,9 @@ Write ADRs in a concise, direct, practical style.
 - Use `We will ...` for accepted decisions.
 - Document consequences as two separate lists: positive consequences and
   negative consequences.
+- Actively look for negative consequences even when the decision is clearly
+  beneficial. Do not leave the negative list empty or document only positive
+  outcomes.
 - Prefer concrete examples when the decision affects source layout, command
   usage, dependencies, or security posture.
 - Keep each ADR focused on one decision.
@@ -178,6 +182,8 @@ Before finishing ADR work, validate the files directly:
   `Alternatives Considered` sections.
 - Check that every `Consequences` section contains separate positive and
   negative consequence lists.
+- Check that the negative consequences list documents at least one meaningful
+  trade-off, cost, risk, operational burden, migration impact, or limitation.
 - Run existing Markdown lint, link-check, formatting, or documentation CI tools
   when the repository already provides them.
 
@@ -194,4 +200,6 @@ Before finishing ADR project work, check that:
   `Alternatives Considered` sections.
 - Accepted decisions use `We will ...`.
 - Consequences use separate positive and negative consequence lists.
+- Negative consequences include at least one meaningful trade-off, cost, risk,
+  operational burden, migration impact, or limitation.
 - Existing Markdown or documentation validation passes when available.
