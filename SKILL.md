@@ -39,7 +39,7 @@ Optional:
 
 - `adr/<category>/`: groups ADRs by category, such as `security`.
 
-## ADR Location
+### ADR Location
 
 For a new ADR-only repository, place ADR files under `adr/`.
 
@@ -61,7 +61,7 @@ Category-specific ADRs live in subdirectories:
 adr/security/security_01-use-execfile-instead-of-exec.md
 ```
 
-## ADR File Names
+### ADR File Names
 
 General ADRs use:
 
