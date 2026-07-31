@@ -133,7 +133,7 @@ Negative consequences:
 Describe the relevant alternatives and why they were not selected.
 ```
 
-## Writing Style
+### Writing Style
 
 Write ADRs in a concise, direct, practical style.
 
@@ -164,20 +164,3 @@ Before finishing ADR work, validate the files directly:
   trade-off, cost, risk, operational burden, migration impact, or limitation.
 - Run existing Markdown lint, link-check, formatting, or documentation CI tools
   when the repository already provides them.
-
-## Review Checklist
-
-Before finishing ADR project work, check that:
-
-- `README.md` states the collection domain and purpose.
-- Every ADR is under the selected ADR directory.
-- ADR filenames sort correctly and match their `#` heading slug.
-- Category ADRs use both a category directory and category filename prefix when
-  that convention is already used.
-- Every ADR has `Context`, `Decision`, `Consequences`, and
-  `Alternatives Considered` sections.
-- Accepted decisions use `We will ...`.
-- Consequences use separate positive and negative consequence lists.
-- Negative consequences include at least one meaningful trade-off, cost, risk,
-  operational burden, migration impact, or limitation.
-- Existing Markdown or documentation validation passes when available.
