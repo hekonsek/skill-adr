@@ -15,6 +15,7 @@ This skill is also intentionally tool-agnostic. It follows the portable
 
 ```text
 skill-adr/
+|-- LICENSE
 |-- README.md
 `-- SKILL.md
 ```
@@ -47,3 +48,7 @@ python3 -m venv /tmp/skills-ref-venv
 pip install 'git+https://github.com/agentskills/agentskills.git#subdirectory=skills-ref'
 skills-ref validate /path/to/skill-adr
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
