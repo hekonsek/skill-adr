@@ -5,18 +5,16 @@ description: Creates, updates, and reviews Markdown ADR (Architecture Decision R
 
 # ADR Documentation Projects
 
-## Overview
+## When to use it 
 
-Use this skill to create or maintain Architecture Decision Record (ADR)
-collections that are plain Markdown repositories or Markdown documentation
-folders inside an existing repository.
+Use this skill to create or maintain Architecture Decision Record (ADR) collections that are plain Markdown repositories or Markdown documentation folders inside an existing repository.
 
 ## Workflow
 
 1. Identify the ADR collection domain and scope.
 2. Create or update the project layout.
 3. Add ADR Markdown files under the project's ADR directory.
-4. Name each ADR file from its sequence number, optional category, and title.
+4. Name each ADR file from its sequence number, optional category, and slugified title.
 5. Write each ADR with the required Markdown sections.
 6. Validate the Markdown structure and naming conventions.
 
@@ -26,40 +24,20 @@ Use this repository structure:
 
 ```text
 .
-|-- README.md
 |-- adr/
 |   |-- 01-use-typescript-instead-of-javascript.md
 |   |-- 02-use-options-object-for-optional-parameters.md
 |   `-- security/
 |       `-- security_01-use-execfile-instead-of-exec.md
-`-- .github/
-    `-- workflows/
-        `-- ci.yml
 ```
 
 Required:
 
-- `README.md`: describes the ADR collection purpose and target domain.
 - `adr/`: stores ADR Markdown files.
 
 Optional:
 
 - `adr/<category>/`: groups ADRs by category, such as `security`.
-- `.github/workflows/ci.yml`: validates Markdown or repository conventions in CI
-  when the project already has a validation toolchain.
-- `LICENSE`: declares the repository license.
-
-## README
-
-The README should identify the collection and target domain in one short
-introduction.
-
-```md
-# ADR (Architecture Decision Record) collection for Node CLI
-
-This is ADR (Architecture Decision Record) collection containing Golden Path
-recommendations for working with Node CLI.
-```
 
 ## ADR Location
 
