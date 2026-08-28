@@ -132,7 +132,9 @@ Negative consequences:
 
 ## Alternatives Considered
 
-Describe the relevant alternatives and why they were not selected.
+**Alternative 1**. Describe the relevant alternative and why it was not selected.
+
+**Alternative 2**. Describe the relevant alternative and why it was not selected.
 ```
 
 ### Writing Style
