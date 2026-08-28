@@ -1,6 +1,6 @@
 # skill-adr: Lightweight ADR documentation skill for AI agents
 
-An Agent Skill for creating, updating, and reviewing Markdown Architecture Decision Record (ADR) documentation projects.
+An Agent Skill for creating, updating, and reviewing Markdown-based Architecture Decision Record (ADR) for software projects.
 
 ## Why this skill?
 
