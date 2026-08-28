@@ -1,6 +1,6 @@
 ---
 name: skill-adr
-description: Creates, updates, and reviews Markdown ADR (Architecture Decision Record) documentation projects. Use when working with Architecture Decision Records or architecture documentation, ADR naming conventions, ADR document structure, or ADR validation.
+description: Creates, updates, and reviews Markdown-based ADR (Architecture Decision Record) documentation projects. Use when working with Architecture Decision Records or architecture documentation, ADR naming conventions, ADR document structure, or ADR validation.
 ---
 
 # ADR Documentation Projects
@@ -24,7 +24,7 @@ Use this repository structure:
 
 ```text
 .
-|-- adr/
+|-- docs/adr/
 |   |-- 01-use-typescript-instead-of-javascript.md
 |   |-- 02-use-options-object-for-optional-parameters.md
 |   `-- security/
@@ -33,32 +33,32 @@ Use this repository structure:
 
 Required:
 
-- `adr/`: stores ADR Markdown files.
+- `docs/adr/`: stores ADR Markdown files.
 
 Optional:
 
-- `adr/<category>/`: groups ADRs by category, such as `security`.
+- `docs/adr/<category>/`: groups ADRs by category, such as `security`.
 
 ### ADR Location
 
-For a new ADR-only repository, place ADR files under `adr/`.
+For a new ADR-only repository, place ADR files under `docs/adr/`.
 
 For an existing repository, first look for an established ADR location and use
-it if present. Common alternatives include `docs/adr/`, `docs/architecture/adr/`,
+it if present. Common alternatives include `adr/` in root of the project, `docs/architecture/adr/`,
 and `architecture/decisions/`. Do not move existing ADRs unless the user asks for
 a layout migration.
 
 General ADRs are direct children:
 
-```text
-adr/01-use-typescript-instead-of-javascript.md
-adr/02-use-options-object-for-optional-parameters.md
+```
+docs/adr/01-use-typescript-instead-of-javascript.md
+docs/adr/02-use-options-object-for-optional-parameters.md
 ```
 
 Category-specific ADRs live in subdirectories:
 
-```text
-adr/security/security_01-use-execfile-instead-of-exec.md
+```
+docs/adr/security/security_01-use-execfile-instead-of-exec.md
 ```
 
 ### ADR File Names
