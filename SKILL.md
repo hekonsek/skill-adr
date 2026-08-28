@@ -19,6 +19,10 @@ Create ADR for <DECISION>.
 Propose what ADRs could be extracted from this project.
 ```
 
+```
+Improve formatting of existing ADRs.
+```
+
 ## Handling existing conventions
 
 Always try to follow the conventions of the existing ADR collection. If no conventions exist, use the conventions described in this document. Suggest user that you can convert existing ADRs to the conventions described here if they are not already following them, but always ask for confirmation before performing any significant refactoring or renaming of existing ADRs.
