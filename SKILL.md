@@ -27,7 +27,7 @@ Always try to follow the conventions of the existing ADR collection. If no conve
 
 Use this repository structure:
 
-```text
+```
 .
 |-- docs/adr/
 |   |-- 01-use-typescript-instead-of-javascript.md
@@ -42,7 +42,7 @@ Required:
 
 Optional:
 
-- `docs/adr/<category>/`: groups ADRs by category, such as `security`.
+- `docs/adr/<category>/`: groups ADRs by category, such as `security`. Categories can be nested, such as `docs/adr/security/authentication/`.
 
 ### ADR Location
 
