@@ -9,6 +9,16 @@ description: Creates, updates, and reviews Markdown-based ADR (Architecture Deci
 
 Use this skill to create or maintain Architecture Decision Record (ADR) collections that are plain Markdown repositories or Markdown documentation folders inside an existing repository.
 
+### Example of prompts triggering this skill
+
+```
+Create ADR for <DECISION>.
+```
+
+```
+Propose what ADRs could be extracted from this project.
+```
+
 ## Handling existing conventions
 
 Always try to follow the conventions of the existing ADR collection. If no conventions exist, use the conventions described in this document. Suggest user that you can convert existing ADRs to the conventions described here if they are not already following them, but always ask for confirmation before performing any significant refactoring or renaming of existing ADRs.
