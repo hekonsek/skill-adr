@@ -94,18 +94,6 @@ The filename slug must match the heading:
 # Use TypeScript Instead of JavaScript
 ```
 
-Category-specific ADRs may include a category prefix:
-
-```text
-category_NN-slugified-markdown-heading.md
-```
-
-Example:
-
-```text
-security_01-use-execfile-instead-of-exec.md
-```
-
 ## ADR Document Format
 
 Each ADR is one Markdown document with exactly one top-level heading and these
@@ -130,8 +118,7 @@ Positive consequences:
 
 Negative consequences:
 
-- Describe a trade-off, cost, risk, operational burden, migration impact, or
-  limitation of the decision.
+- Describe a trade-off, cost, risk, operational burden, migration impact, or limitation of the decision.
 
 ## Alternatives Considered
 
@@ -143,7 +130,7 @@ Describe the relevant alternatives and why they were not selected.
 Write ADRs in a concise, direct, practical style.
 
 - Explain project context before stating the decision.
-- Use `We will ...` for accepted decisions.
+- Use first person plural (`We will ...`) for accepted decisions.
 - Document consequences as two separate lists: positive consequences and
   negative consequences.
 - Actively look for negative consequences even when the decision is clearly
@@ -151,7 +138,7 @@ Write ADRs in a concise, direct, practical style.
   outcomes.
 - Prefer concrete examples when the decision affects source layout, command
   usage, dependencies, or security posture.
-- Keep each ADR focused on one decision.
+- Keep each ADR focused on one decision (if an ADR is too broad, ask the user if they want to split it into multiple ADRs).
 - Avoid implementation details that do not affect the decision.
 
 ## Validation
