@@ -9,6 +9,10 @@ description: Creates, updates, and reviews Markdown-based ADR (Architecture Deci
 
 Use this skill to create or maintain Architecture Decision Record (ADR) collections that are plain Markdown repositories or Markdown documentation folders inside an existing repository.
 
+### When not yo use it
+
+Don't document code that is self-explanatory or trivial.
+
 ### Example of prompts triggering this skill
 
 ```
