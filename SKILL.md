@@ -9,7 +9,13 @@ description: Creates, updates, and reviews Markdown-based ADR (Architecture Deci
 
 Use this skill to create or maintain Architecture Decision Record (ADR) collections that are plain Markdown repositories or Markdown documentation folders inside an existing repository.
 
-### When not yo use it
+Create ADR when:
+- choosing an architectural decision that needs to be documented
+- choosing framework or library
+- selecting authentication strategy
+- making any decision that will be difficult or costly to change later or reverse
+
+### When not to use it
 
 Don't document code that is self-explanatory or trivial.
 
@@ -95,7 +101,7 @@ NN-slugified-markdown-heading.md
 Rules:
 
 - `NN` is a zero-padded sequence number.
-- Use the least sequence width that still sorts alphanumerically within the
+- Use the least sequence width >= 2 that still sorts alphanumerically within the
   directory, such as `01` through `99` or `001` through `999`.
 - Sequence numbers are monotonic within the directory.
 - Derive the slug from the ADR `#` heading.
