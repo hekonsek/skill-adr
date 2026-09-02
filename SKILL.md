@@ -1,6 +1,6 @@
 ---
 name: skill-adr
-description: Creates, updates, and reviews Markdown-based ADR (Architecture Decision Record) documentation projects. Use when working with Architecture Decision Records or architecture documentation, ADR naming conventions, ADR document structure, or ADR validation.
+description: Creates, updates, and reviews Markdown-based ADR (Architecture Decision Record) documentation projects. Use when working with DRs or architecture documentation. Or when you need to record an architectural decision context for future engineers or AI agents working on the project. 
 ---
 
 # ADR Documentation for software projects
